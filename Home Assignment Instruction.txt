@@ -1,0 +1,29 @@
+Home Assignment Instruction
+
+If I had more time for this assignment I would chose NoSQL database like MongoDB because the data looks 
+like it can be changed at some point and its harder to maintain a lot of changes in data structure when using sql database.
+
+To run this code on your local machine you need to:
+1.	create a schema in mysql database with name = realidb
+2.	create ‘apartment’ table 
+3.	go to application.properties and change the user and password fields to yours
+I changed the urls to http://localhost:8080/reali-api/listings and http://localhost:8080/reali-api/start
+
+BONUS 
+The url for the bonus exercise is  http://localhost:8080/reali-api/listings/bonus and its POST request
+Example request
+
+{
+    "status":["active"],
+    "page":0,
+    "pageSize":10,
+    "priceFrom":100000,
+    "priceTo":1231333,
+    "bedroomsFrom":1,
+    "bedroomsTo":6,
+    "bathroomsFrom":1,
+    "bathroomsTo":10
+}
+
+
+Alex Sol
